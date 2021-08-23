@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.headtag{
+    background: black;
+}
+.headtag2{
+    background: black;
+    margin-top: -15px;
+}
+.website-header{
+    height: 60px;
+    
+    width: 100%;
+    
+}
+.website-header h3{
+    color: white;
+    margin-top: 5px;
+    margin-left: 7px;
+    font-weight: 700;
+    float: left;
+}
+.website-header img{
+    margin:10px 10px ;
+    height: 30px;
+    width: 60px;
+    float: left;
+    
+}
+.website-header .social-icon{
+    color: white;
+    float: right;
+    margin: 16px 16px 16px -5px;
+
+}
+.social-icon ul{
+    display: inline-flex;
+    list-style: none;
+}
+.social-icon ul li{
+    margin-right: 5px;
+}
+.social-icon i{
+    margin: 0 7px ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.social-icon ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.search-box{
+    float: right;
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 35px;
+    padding: 4px 10px 0 6px;
+    background: white;
+}
+.search-btn{
+    float: right;
+    margin-top: -3px;
+    margin-right: -9px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    text-align: center;
+}
+.search-box .fa{
+    text-decoration: none;
+    color: white;
+}
+.search-text{
+    border: none;
+    outline: none;
+    background: none;
+    float: left;
+    transition: 0.4s;
+}
+
+.menu{
+    text-align: center;
+    background: black;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    margin-bottom: 5px;  
+}
+.menu ul li{
+    padding: 10px 30px;
+    margin: 0 5px;
+}
+.menu .fa{
+    padding-right: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.active, .menu ul li:hover{
+    background: rgb(34, 33, 33);
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+}
+
+.menu ul li:hover .sub-menu{
+    display: block;
+    background: black;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.menu ul li:hover .sub-menu ul{
+    display: block; 
+}
+.menu ul li:hover .sub-menu ul li {
+    background: none;
+    margin-left: -10px;
+}
+.menu ul li:hover .sub-menu ul li a:hover{
+    background: none;
+    color: brown;
+    
+}
+.menu ul li:hover .sub-menu ul li a{
+    margin-right: 10px;
+}
+.breaking-news-section{
+    display: flex;
+    padding: 5px 30px 5px 30px;
+}
+.news1{
+    text-align: center;
+    color: brown;
+    font-weight: 700;
+}
+.breaking-news-section a{
+    text-decoration: none;
+    color: white;
+    margin-right: 100px;
+    margin-top: 10px;
+    display: inline-flex;
+    font-weight: 600;
+}
+.breaking-news-section a:hover{
+    color: brown;
+}
+.fate{
+    color: rgb(80, 79, 79);
+}
+.populer-news{
+    display: flex;
+    margin: 30px 5%;
+}
+.populer-news img{
+    width: 100%;
+    filter: brightness(0.7);
+}
+.populer-news h2{
+    padding: 10px;
+    color: white;
+}
+.featured h2{
+    background: rgb(1, 1, 155);
+}
+.latest h2{
+    background: black;
+}
+.our-picks h2{
+    background: darkred;
+}
+.populer-news-text1{
+    position: absolute;
+	color: white;
+    top: 60%;
+    font-size: 18px;
+}
+.populer-news-text2{
+    position: absolute;
+	color: white;
+    top: 88%;
+    font-size: 18px;
+}
+.featured{
+    flex: 2;
+}
+.latest,.our-picks{
+    flex: 1;
+}
+
+
+
+
+
+.box{
+    margin-top: 7%;
+    margin-left: 25%;
+    height: 400px;
+    width: 50%;
+    background: white;
+    box-shadow: 10px 10px 20px;
+   
+}
+.left-box{
+    height: 100%;
+    width: 35%;
+    background: black;
+    color: white;
+    float: left;
+    
+}
+.left-box h4{
+    margin: 35px 18px 50px;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+.right-box{
+    
+    height: 100%;
+    width: 65%;
+    float: right;
+}
+.contact-menu{
+    margin-right: 5px;
+    margin-top: 50px;
+    
+}
+.contact-menu ul{
+    list-style: none;
+}
+.contact-menu ul li span{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.contact-menu ul li{
+    display: flex;
+}
+.contact-menu .fa{
+    margin-right: 10px;
+    
+}
+.contact-menu i{
+    font-size: 17px;
+}
+.contact-menu .list1 i{
+    height: 30px;
+    width: 30px;
+    margin-top: 30px;
+    
+}
+.contact-menu .list2 i{
+    margin-top: 3px;
+}
+.text-box{
+    display: flex;
+    margin: 30px 10px 0;
+    padding: 0 20px;
+}
+.sub-text-box2{
+    margin-left: 20px;
+}
+.text-box .space{
+    font-size: 12px;
+    font-weight: 600;
+}
+.right-box input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom:2px solid black ;
+}
+::-webkit-input-placeholder{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sub-text-box3{
+    margin: 30px 30px 0;
+    
+}
+.sub-text-box3 .space{
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-text-box3 input{
+    width: 410px;
+}
+.sub-text-box3 textarea{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+.submit{
+    margin: 30px 30px 0;
+}
+.submit input{
+    border: none;
+    background: black;
+    color: white;
+}
+.submit input:hover{
+    background: green;
+    color: white;
+}
